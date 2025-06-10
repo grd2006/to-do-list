@@ -20,7 +20,7 @@ export default function Home() {
   const [count, setCount] = useState(0)
   const { user, googleSignIn, logOut } = useAuth()
 
-  // Create user collection when user logs in
+  // Create user collection when user logs in 
   useEffect(() => {
     if (!user) return;
 
